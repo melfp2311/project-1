@@ -1,0 +1,159 @@
+body {
+    background-image: url(images/funback.png);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-repeat: no-repeat;
+    background-size: 105% 100%;
+}
+.jumbotron{
+    text-align: center;
+}
+#currentDay{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(241, 93, 204);
+}
+.subTitle{
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    color: teal;
+    text-align: center;
+}
+.menu{
+  text-align: center;
+}
+#btn1{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 250px;
+    margin-top: 160px;
+    background-color:rgb(231, 141, 145);
+    color:#2F5061;
+}
+#btn2{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 250px;
+    margin-top: 160px;
+    background-color:#F6C8CC;
+    color: #2F5061;  
+}
+#btn3{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 250px;
+    margin-top: 160px;
+    background-color:#C15B78;
+    color: #2F5061;
+}
+#btn4{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 250px;
+    margin-top: 160px;
+    background-color:rgb(246, 200, 232);
+    color: #2F5061;
+}
+
+.container{
+    height: 1300px;
+    width: 1000px;  
+    background-image: url(images/containerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-top: 60px;
+  
+}
+
+h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    color:teal;
+    
+}
+
+P{
+    text-align: center;
+}
+
+.row > div { 
+    font-size: 18px;
+    padding: 25px;
+    padding-left: 10px;
+    background-color:#A1DBF1;
+}
+
+#inputInfo{
+    padding: 10px;
+    background-color: rgb(245, 220, 222);
+  
+}
+::placeholder{
+    color: teal;
+}
+
+#inputInfo > input {
+    text-align: center;
+    
+}
+
+.row > button { 
+    border: solid;
+    border: #00B6BC;
+    padding: 10px;
+    background-color: #00B6BC;
+    color: ivory;
+  
+}
+  
+.row {
+    padding-left: 32px;
+    display: grid;
+    grid-template-columns: 90px 790px 50px;
+} 
+
+.hour {
+    background-color:#c7fd71;
+    color: #000000;
+  }
+  
+  .past {
+    background-color: rgb(245, 220, 222);
+    color: rgb(0, 0, 0);
+  }
+  
+  .present {
+    background-color: #c7fd71;
+    color: black;
+  }
+  
+  .future {
+    background-color:  rgb(149, 233, 236);
+    color: black;
+  }
+  
+
+footer{
+      margin-top: 100px;
+      background-image: url(images/background.png);
+      height: 60px;
+      text-align: center;
+      font-family: Helvetica, sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      
+}
+
+
+
+
+  
