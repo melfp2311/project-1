@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="widget cluster-widget" data-qa-widgetid="1077" style="width: 5563.3px; z-index: 0; transform: translate(606px, 213px) rotate(0deg);"><div data-qa="layout-widget"><div class="cluster-shape" style="border-color: rgb(234, 234, 234); border-style: solid; border-width: 13.0929px; background-color: rgb(255, 255, 255);">
-    </div><h1 class="cluster-title clickable e
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Survive the day: Quarantine edition</title>
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589091623_312995688.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589091694_312995689.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589091765_312995690.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589091824_312995691.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top" ><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589091983_312995693.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092278_312995695.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092322_312995696.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092624_312995701.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092674_312995702.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092743_312995703.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092791_312995704.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092862_312995705.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      <a target="_top"><img src="https://blog.flamingtext.com/blog/2020/05/10/flamingtext_com_1589092921_312995706.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+     <pre></pre>
+     <a class="subTitle"  target="_top" href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2020/05/11/flamingtext_com_1589161139_648180711.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+      
+    </header>
+    
+    <div class="menu">
+      <a id="btn1" class="waves-effect waves-light btn">Daily Planner <i class="material-icons">insert_invitation</a></i>
+      <a id="btn2" class="waves-effect waves-light btn">Daily Quote   <i class="material-icons">textsms</a></i>
+      <a id="btn3" class="waves-effect waves-light btn">Daily Drink   <i class="material-icons">local_bar</a></i>
+      <a id="btn4" class="waves-effect waves-light btn">Daily Movie   <i class="material-icons">theaters</a></i>
+    </div>
+
+    <div class="container">
+
+      <div>
+         <h1> Plan your Day </h1>
+         <p id="currentDay" class="lead"></p>
+       </div>
+      <div class="row">
+        <div  id="hour">9:00AM</div>
+         <div id="inputInfo"><input  id="9Row" type="text" placeholder="What are you up to at 9:00 AM?"></input></div>
+        <button class="saveBtn" data-time="9"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row" >
+        <div  id="hour">10:00AM</div>
+         <div id="inputInfo"><input id="10Row" type="text" placeholder="What are you up to at 10:00 AM?"></input></div>
+        <button class="saveBtn" data-time="10"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row" >
+        <div  id="hour">11:00AM</div>
+         <div id="inputInfo"><input id="11Row" type="text" placeholder="What are you up to at 11:00 AM?"></input></div>
+        <button class="saveBtn" data-time="11"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row" >
+        <div  id="hour">12:00AM</div>
+         <div id="inputInfo"><input id="12Row" type="text" placeholder="What are you up to at 12:00 AM?"></input></div>
+        <button class="saveBtn" data-time="12"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row">
+        <div  id="hour">1:00PM</div>
+         <div id="inputInfo"><input  id="1Row" type="text" placeholder="What are you up to at 1:00 PM?"></input></div>
+        <button class="saveBtn" data-time="1"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row">
+        <div  id="hour">2:00PM</div>
+         <div id="inputInfo"><input  id="2Row" type="text" placeholder="What are you up to at 2:00 PM?"></input></div>
+        <button class="saveBtn" data-time="2"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row">
+        <div  id="hour">3:00PM</div>
+         <div id="inputInfo"><input  id="3Row" type="text" placeholder="What are you up to at 3:00 PM?"></input></div>
+        <button class="saveBtn" data-time="3"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row">
+        <div  id="hour">4:00PM</div>
+         <div id="inputInfo"><input  id="4Row" type="text" placeholder="What are you up to at 4:00 PM?"></input></div>
+        <button class="saveBtn" data-time="4"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row">
+        <div  id="hour">5:00PM</div>
+         <div id="inputInfo"><input  id="5Row" type="text" placeholder="What are you up to at 5:00 PM?"></input></div>
+        <button class="saveBtn" data-time="5"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row" >
+        <div  id="hour">6:00PM</div>
+         <div id="inputInfo"><input id="6Row" type="text" placeholder="What are you up to at 6:00 PM?"></input></div>
+        <button class="saveBtn" data-time="6"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row" >
+        <div  id="hour">7:00PM</div>
+         <div id="inputInfo"><input id="7Row" type="text" placeholder="What are you up to at 7:00 PM?"></input></div>
+        <button class="saveBtn" data-time="7"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+      <div class="row">
+        <div  id="hour">8:00PM</div>
+         <div id="inputInfo"><input  id="8Row" type="text" placeholder="What are you up to at 8:00 PM?"></input></div>
+        <button class="saveBtn" data-time="8"aria-hidden="true"><i class="material-icons" >folder</button></i>
+      </div>
+
+    </div>
+
+    <footer class="page-footer">
+      <a>Dear Coronavirus FUCK YOU 🖕</A>
+    </footer>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
+
+
+
