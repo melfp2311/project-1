@@ -28,21 +28,21 @@ $(document).ready(function () {
 
     
     for (var i = 0; i <= 12; i++) {
+        var now = moment().hour()
         var inputTime = $("#" + i + "Row").attr("data-time");
         var inputTimeInt = parseInt(inputTime);
-        console.log(inputTimeInt);
-
+       console.log($("#" + i + "Row"))
       
-        if (currentTimeInt === inputTimeInt){
+        if (now === inputTimeInt){
             $("#" + i + "Row").addClass("present");
             
         }
 
-        else if (currentTimeInt > inputTimeInt){
+        else if (now > inputTimeInt){
             $("#" + i + "Row").addClass("past");
         }
 
-        else if (currentTimeInt < inputTimeInt){
+        else if (now < inputTimeInt){
             $("#" + i + "Row").addClass("future");
         }
 
@@ -52,7 +52,7 @@ $(document).ready(function () {
 
     saveBtn.on("click", function () {
         
-        var hour = $(this).attr("data-hour");       
+        var hour = $(this).attr("data-time");       
         var plan = $("#" + hour + "Row").val();
         
         localStorage.setItem(hour, plan,);

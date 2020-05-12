@@ -126,20 +126,20 @@ P{
     color: #000000;
   }
   
-  .past {
-    background-color: rgb(245, 220, 222);
+.past {
+    background-color: rgb(245, 220, 222) !important;
     color: rgb(0, 0, 0);
-  }
+}
   
-  .present {
-    background-color: #c7fd71;
+.present {
+    background-color: #c7fd71 !important;
     color: black;
-  }
+}
   
-  .future {
-    background-color:  rgb(149, 233, 236);
+.future {
+    background-color:  rgb(149, 233, 236) !important;
     color: black;
-  }
+}
   
 
 footer{
