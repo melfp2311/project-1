@@ -52,9 +52,10 @@ $(document).ready(function () {
 
     saveBtn.on("click", function () {
         
-        var hour = $(this).attr("data-hour");       
+        var hour = $(this).attr("data-time");       
         var plan = $("#" + hour + "Row").val();
-        
+        console.log (plan)
+        console.log (hour)
         localStorage.setItem(hour, plan,);
 
     });
@@ -70,3 +71,4 @@ $(document).ready(function () {
 
 
 });
+
