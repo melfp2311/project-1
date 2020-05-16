@@ -1,0 +1,143 @@
+/*  GENERAL STYLING  */
+.jumbotron{
+    text-align: center;
+}
+
+.subTitle{
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+    color: teal;
+    text-align: center;
+}
+
+.menu{
+  text-align: center;
+}
+
+.btn{
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 90%;
+    color:#2F5061;
+}
+
+#btn1{
+    background-color:rgb(231, 141, 145);
+}
+
+#btn2{
+    background-color:#F6C8CC;
+}
+
+#btn3{
+    background-color:#C15B78;
+}
+
+#btn4{
+    background-color:rgb(246, 200, 232);
+}
+
+/* .container{
+    height: 1300px;
+    width: 1000px;  
+    /* background-image: url(images/containerbg.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-top: 60px;
+} */ 
+
+h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+    /* text-decoration: underline; */
+    color:teal; 
+}
+
+P{
+    text-align: center;
+}
+
+/* .row > div { 
+    font-size: 18px;
+    padding: 25px;
+    padding-left: 10px;
+    background-color:#A1DBF1;
+}
+
+.row {
+    padding-left: 32px;
+    display: grid;
+    grid-template-columns: 90px 790px 50px;
+}  */
+
+
+footer{
+    margin-top: 100px;
+    background-image: url(images/background.png);
+    height: 60px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*  DAILY PLANNER STYLING  */
+
+#currentDay{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(241, 93, 204);
+}
+
+#inputInfo{
+    padding: 10px;
+    background-color: rgb(245, 220, 222);
+}
+
+::placeholder{
+    color: teal;
+}
+
+#inputInfo > input {
+    text-align: center;
+}
+
+.row > button { 
+    border: solid;
+    border: #00B6BC;
+    padding: 10px;
+    background-color: #00B6BC;
+    color: ivory;
+}
+
+.hour {
+    background-color:#c7fd71;
+    color: #000000;
+  }
+  
+.past {
+    background-color: rgb(245, 220, 222);
+    color: rgb(0, 0, 0);
+  }
+  
+.present {
+    background-color: #c7fd71;
+    color: black;
+  }
+  
+.future {
+    background-color:  rgb(149, 233, 236);
+    color: black;
+  }
+  
+
+
+
+
+
+
+  
