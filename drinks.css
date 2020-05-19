@@ -5,10 +5,16 @@ body {
     line-height: 1;
     background-repeat: no-repeat;
     background-size: 105% 100%;
+    background-color: papayawhip;
 }
 .jumbotron{
     text-align: center;
+    background-color: papayawhip;
 }
+.letras{
+    background-color: papayawhip;
+}
+
 #currentDay{
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -74,31 +80,31 @@ body {
 .drinkName{
     text-align: center;
     padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Dancing Script';
+    text-decoration: underline;
+    color:teal;
 }
 
 .ingr{
     padding-top: 35px;
     text-align: center;
-    font-size: 35px;
-    font-family: 'Dancing Script', cursive;
-    text-decoration: underline;
-    color:teal;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive; 
+    color:#C15B78;
     
 }
 
 h1{
-    padding-top: 35px;
+    padding-top: 25px;
     text-align: center;
-    font-size: 25px;
-    font-family: 'Dancing Script', cursive;
-    text-decoration: underline;
-    color:teal;
+    font-size: 35px;
+    font-family: 'Dancing Script';
+  
+    color:rgba(231, 141, 145, 0.856);
     
 }
 
-.img{
-    text-align: center;
-}
 
 .row > div { 
     font-size: 18px;
@@ -156,11 +162,42 @@ h1{
     color: black;
   }
 
-  .drinkimg{
-      width: 200px;
-      text-align: center;
-      float: left;
+  .imgContainer{
+      
+     display: flex;
+     justify-content: center;
+      
   }
+
+  .drinkimg{
+      width: 250px;
+      padding: 35px;
+  }
+  
+  .ingContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .listing{
+    font-family: Helvetica, sans-serif;
+    color: rgb(2, 170, 170);
+    font-size: 25px;
+  }
+
+  .instContainer{
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .ints{
+    font-family: Helvetica, sans-serif;
+    color: rgb(2, 170, 170);
+    font-size: 25px;
+  }
+  
   
 
 footer{
