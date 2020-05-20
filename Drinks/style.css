@@ -9,8 +9,9 @@ body {
 }
 .jumbotron{
     text-align: center;
-    background-color: papayawhip;
+    background-color: white;
 }
+
 .letras{
     background-color: papayawhip;
 }
@@ -202,7 +203,7 @@ h1{
 
 footer{
       margin-top: 100px;
-      background-image: url(images/background.png);
+      background-image: url(../images/background.png);
       height: 60px;
       text-align: center;
       font-family: Helvetica, sans-serif;

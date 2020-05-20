@@ -81,7 +81,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
 
 .poster { 
     grid-area: 2 / 3 / 10 / 7; 
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     background-size: 100% 100%;
     height: 648px;
 }
@@ -95,7 +95,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
 
 .info { 
     grid-area: 2 / 8 / 6 / 11; height: 340px; 
-    background-image: url(images/infocont.png);
+    background-image: url(../images/infocont.png);
     background-size: 100% 100%;
     font-size: 10px;
     font-family: 'Open Sans', sans-serif; 
@@ -123,7 +123,7 @@ a{
 .giphy {
     margin-top: 100px;
      grid-area: 7 / 8 / 10 / 11;
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     background-size: 100% 100%;
     height: 300px;
 
@@ -135,6 +135,18 @@ a{
     padding-top: 10%;
     display: block;
 }
+
+footer{
+    margin-top: 100px;
+    background-image: url(../images/background.png);
+    height: 60px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
 
 
 
