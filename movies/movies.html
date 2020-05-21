@@ -6,12 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Survive the day: Quarantine edition</title>
-
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css" />
 
   </head>
@@ -35,22 +32,38 @@
      <a class="subTitle"  target="_top" href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2020/05/11/flamingtext_com_1589161139_648180711.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
       
     </header>
-    
-    <div class="menu">
-      <a id="btn1" class="waves-effect waves-light btn"  href="../index.html">Daily Planner <i class="material-icons">insert_invitation</a></i>
-      <a id="btn2" class="waves-effect waves-light btn"  href="../quote/quote.html">Daily Quote   <i class="material-icons">textsms</a></i>
-      <a id="btn3" class="waves-effect waves-light btn"href="../drinks/drinks.html">Daily Drink   <i class="material-icons">local_bar</a></i>
-      <a id="btn4" class="waves-effect waves-light btn" href="movies.html">Daily Movie   <i class="material-icons">theaters</a></i>
-    </div>
-     
-    <div class="movieheader">
-      <h1 class="title"></h1>
-    </div>
 
-    <div class="grid-container">
-      <div class="poster"><img id="poster"></img></div>
-      <div class="info">
-        <a>Director: </a><p id="director"></p>
+    <div class="menu row">
+      <div class="col m3 s6">
+      <a id="btn1" class="waves-effect waves-light btn" href="../index.html">Daily Planner <i class="material-icons">insert_invitation</a></i>
+    </div>
+    <div class="col m3 s6">
+      <a id="btn2" class="waves-effect waves-light btn" href="../quote/quote.html">Daily Quote   <i class="material-icons">textsms</a></i>
+    </div>
+    <div class="col m3 s6">
+      <a id="btn3" class="waves-effect waves-light btn" href="drinks.html">Daily Drink   <i class="material-icons">local_bar</a></i>
+    </div>
+    <div class="col m3 s6">
+      <a id="btn4" class="waves-effect waves-light btn" href="../movies/movies.html">Daily Movie   <i class="material-icons">theaters</a></i>
+    </div>
+  </div>
+     
+  <h1 class="title"></h1>
+
+  <div class="row">
+
+  <div class= "col l1 m0 s0"></div>
+
+  <div class= "col l5 m6 s12, poster">
+      <img id="poster"></img>
+  </div>
+
+  <div class= "col l1 m0 s0"></div>
+
+  <div class= "col l5 m6 s12">
+    <div class="info">
+        <a>Director: </a>
+        <p id="director"></p>
         <a>Genre: </a>
         <p id="genero"></p>
         <a>Relased:</a>
@@ -63,14 +76,20 @@
         <p id="actors"></p>
         <a>Synopsis:</a>
         <p id="plot"></p>
-      </div>
-
-      <div class="giphy"><img id="giphy" ></img></div>
     </div>
 
-     <footer>
-       <p> Ya tienes tu chamarra de los Borregos? </p>
-     </footer>
+    <div class="giphy">
+      <img id="giphy" ></img>
+    </div>
+
+  </div>
+
+  </div>
+
+  <footer>
+      <p> Ya tienes tu chamarra de los Borregos? </p>
+  </footer>
+
       <script src="https://momentjs.com/downloads/moment.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="script.js"></script>
