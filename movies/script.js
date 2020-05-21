@@ -1,4 +1,4 @@
-var movieApi = "http://www.omdbapi.com/?t="
+var movieApi = "https://www.omdbapi.com/?t="
 var filmTitleArray = ["coco","Marriage Story", "We are your friends","Burnt",  "The Witch", "Yellow", "The last song", "Parasite","Mississippi Grind", "Aquaman","Under the Skin",
 "jojo Rabbit", "Joker","Young Adult", "Avatar", "Titanic","Thor", "Inception","Moonlight", "Jumanji", "1917", "Atlantics", "Ant-man",  "Birdman", "The Social Network", "The Bling Ring",
 "Edward Scissorhands","Limitless", "Haywire", "Gone with the Wind", "Little Miss Sunshine","A Dog's Purpose", "The Dirt","Inglourious Basterds", "Blue Valentine", "Valley Girl",
