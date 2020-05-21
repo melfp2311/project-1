@@ -38,42 +38,21 @@
     background-color:rgb(246, 200, 232);
 }
 
-/* .container{
-    height: 1300px;
-    width: 1000px;  
-    /* background-image: url(images/containerbg.png); */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-    margin-top: 60px;
-} */ 
 
 h1{
     padding-top: 50px;
     text-align: center;
     font-size: 35px;
     font-family: Helvetica, sans-serif;
-    /* text-decoration: underline; */
-    color:teal; 
+    color:black; 
 }
 
 P{
     text-align: center;
 }
 
-/* .row > div { 
-    font-size: 18px;
-    padding: 25px;
-    padding-left: 10px;
-    background-color:#A1DBF1;
-}
 
-.row {
-    padding-left: 32px;
-    display: grid;
-    grid-template-columns: 90px 790px 50px;
-}  */
-
+/* FOOTER STYLING  */
 
 footer{
     margin-top: 100px;
@@ -84,60 +63,4 @@ footer{
     font-weight: bolder;
     font-size: 20px;
 }
-
-/*  DAILY PLANNER STYLING  */
-
-#currentDay{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    color: rgb(241, 93, 204);
-}
-
-#inputInfo{
-    padding: 10px;
-    background-color: rgb(245, 220, 222);
-}
-
-::placeholder{
-    color: teal;
-}
-
-#inputInfo > input {
-    text-align: center;
-}
-
-.row > button { 
-    border: solid;
-    border: #00B6BC;
-    padding: 10px;
-    background-color: #00B6BC;
-    color: ivory;
-}
-
-.hour {
-    background-color:#c7fd71;
-    color: #000000;
-  }
-  
-.past {
-    background-color: rgb(245, 220, 222);
-    color: rgb(0, 0, 0);
-  }
-  
-.present {
-    background-color: #c7fd71;
-    color: black;
-  }
-  
-.future {
-    background-color:  rgb(149, 233, 236);
-    color: black;
-  }
-  
-
-
-
-
-
-
   
