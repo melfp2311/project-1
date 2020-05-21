@@ -11,8 +11,6 @@ var filmTitleArray = ["coco","Marriage Story", "We are your friends","Burnt",  "
 "E.T. the Extra-Terrestrial", "Full Metal Jacket", "Django Unchained","The Grand Budapest Hotel", "Pretty Boy","Lady Bird","A Quiet Place", "The Shape of Water","Black Panther","Midnight in Paris",
 ]          
 
-
-
 //un numero random del arrey entre 0 y el lenght
 var filmTitle = filmTitleArray[Math.floor(Math.random()* filmTitleArray.length)]
 var movieKey = "&apikey=c46b0da4";
